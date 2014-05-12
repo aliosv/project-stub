@@ -22,7 +22,7 @@
   "scripts": {
     "postinstall": "bower-npm-install --non-interactive",
     "deps": "bower-npm-install --non-interactive",
-    "start": "./node_modules/.bin/bem server -p 5000"
+    "start": "./node_modules/.bin/bem server -p `echo $PORT`"
   },
   "private": true
 }
