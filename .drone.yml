@@ -1,0 +1,5 @@
+image: bradrydzewski/node:0.10
+deploy:
+    git:
+        target: dokku@107.170.135.167:project-stub-test
+        force: true
