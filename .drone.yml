@@ -1,8 +1,5 @@
 image: bradrydzewski/node:0.10
-script:
-    - npm i
 deploy:
     git:
         target: dokku@107.170.135.167:project-stub-map
-        branch: master
         force: true
