@@ -21,7 +21,8 @@
   },
   "scripts": {
     "postinstall": "bower-npm-install --non-interactive",
-    "deps": "bower-npm-install --non-interactive"
+    "deps": "bower-npm-install --non-interactive",
+    "start": "bem make"
   },
   "private": true
 }
