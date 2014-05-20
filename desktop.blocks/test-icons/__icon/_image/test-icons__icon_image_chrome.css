@@ -1,0 +1,10 @@
+.test-icons__icon_image_chrome
+{
+    width: 126px;
+    height: 121px;
+}
+
+.test-icons__icon_image_chrome .test-icons__icon-inner
+{
+    list-style-image: url(test-icons__icon_image_chrome.png);
+}

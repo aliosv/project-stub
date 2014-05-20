@@ -1,0 +1,10 @@
+.test-icons__icon_image_opera
+{
+    width: 108px;
+    height: 118px;
+}
+
+.test-icons__icon_image_opera .test-icons__icon-inner
+{
+    list-style-image: url(test-icons__icon_image_opera.png);
+}

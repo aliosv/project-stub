@@ -1,0 +1,17 @@
+.test-icons__icon
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.test-icons__icon-inner
+{
+    position: relative;
+    display: list-item;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    list-style-position: inside;
+    list-style-type: none;
+    white-space: nowrap;
+}

@@ -1,0 +1,10 @@
+.test-icons__icon_image_firefox
+{
+    width: 120px;
+    height: 124px;
+}
+
+.test-icons__icon_image_firefox .test-icons__icon-inner
+{
+    list-style-image: url(test-icons__icon_image_firefox.png);
+}

@@ -1,0 +1,10 @@
+.test-icons__icon_image_safari
+{
+    width: 112px;
+    height: 125px;
+}
+
+.test-icons__icon_image_safari .test-icons__icon-inner
+{
+    list-style-image: url(_test-icons__icon_image_safari.png);
+}
