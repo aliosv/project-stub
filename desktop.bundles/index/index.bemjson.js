@@ -19,6 +19,13 @@
                     'safari',
                     'explorer'
                 ].map(function(value) {
+                        return {
+                            elem : 'icon',
+                            elemMods : {
+                                image : value
+                            }
+                        };
+
                     return {
                         elem : 'icon',
                         elemMods : {

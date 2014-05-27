@@ -1,0 +1,7 @@
+block('test-icons').elem('icon').content()(function() {
+    var value = this.ctx.elemMods.image;
+
+    return '<object data="/desktop.blocks/test-icons/__icon/_image/test-icons__icon_image_' +
+        (value === 'chrome' ? '' : value) + '.png">' + (value === 'chrome' ? '<span style="color:#22a12a">Ch</span><span style="color:#c90000">ro</span><span style="color:#f9d411">me</span>'
+        : '<span>' + value + '</span>') + '</object>';
+});
